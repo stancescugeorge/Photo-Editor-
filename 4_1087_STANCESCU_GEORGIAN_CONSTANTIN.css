@@ -1,0 +1,97 @@
+﻿img {
+    display: none
+}
+
+canvas {
+    border: 3px solid cadetblue;
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    background-color: lightgrey;
+    float: right;
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+}
+
+label {
+    font-size: 12pt;
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 5px;
+}
+
+#pozitie {
+    width: 100%;
+}
+
+form > input {
+    display: block;
+    float: right;
+    width: 50%;
+    padding: 3px;
+    margin: 2px;
+}
+
+input[type=button] {
+    background-color: cadetblue;
+    font-weight: bold;
+    margin: 8px;
+    cursor: pointer;
+    float: left;
+    width: 40%;
+}
+
+#btnSepia{
+    float: right;
+}
+
+#btnSalveaza {
+    float: initial;
+    width: initial;
+}
+
+a {
+    float: left;
+    width: initial;
+    height: 18px;
+    background-color: cadetblue;
+    font: 10pt Arial;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 2px 6px 2px 6px;
+    border: 2px solid gray;
+    border-right-color: black;
+    border-bottom-color: black;
+    margin-right: 20px;
+}
+
+#btnStergere {
+    margin-left: 10px;
+    float: right;
+}
+
+
+#scalare, #titluAdaugaText {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+select {
+    font-size: 10pt;
+    width: 50%;
+    float: right;
+    margin: 5px;
+}

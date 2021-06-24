@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="4_1087_STANCESCU_Georgian_Constantin.css" />
+    
+    
+    <script type="text/javascript" src="4_1087_STANCESCU_Georgian_Constantin.js"></script>
+</head>
+<body>
+    <img />
+    <canvas width="700" height="500" tabindex="1"></canvas> <!--tabindex - folosit pentru focus pe canvas ca sa functioneze keydown-->
+
+    <form action="#">
+        <h3>Editor fotografii</h3>
+
+        <input type="button" id="btnCrop" value="Crop selectie">
+        <input type="button" id="btnStergere" value="Stergere selectie">
+
+        <input type="button" id="btnNegativ" value="Efect negativ" />
+        <input type="button" id="btnSepia" value="Efect sepia" />
+
+        <p id="titluAdaugaText">Adaugare/Modificare text imagine</p>
+        <label for="text">Text imagine:</label>
+        <input name="text" id="text">
+
+        <label for="dimensiuneText">Dimensiune text(pt):</label>
+        <input name="dimensiuneText" id="dimensiuneText">
+
+        <label for="culoare">Culoare:</label>
+        <input name="culoare" id="culoare">
+
+        <label id="pozitie">Pozitie (coordonate)</label>
+        <label for="x">x:</label>
+        <input name="x" id="x">
+        <label for="y">y:</label>
+        <input name="y" id="y">
+
+        <input type="button" id="btnAdaugaText" value="Adauga text">
+
+        <p id="scalare">Scalare imagine cu pastrarea proportiilor</p>
+        <label for="dimensiune">Scalare dupa:</label>
+        <select id="dimensiune" name="dimensiune">
+            <option value="lungime">lungime</option>
+            <option value="latime">latime</option>
+        </select>
+        <label for="valoare">Valoare dorita:</label>
+        <input name="valoare" id="valoare">
+
+        <input type="button" id="btnScalare" value="Modifica dimensiuni">
+    </form>
+    <a id="btnSalveaza" download="imagine.png" href="#">Salveaza imaginea</a>
+</body>
+</html>
